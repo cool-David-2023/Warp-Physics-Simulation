@@ -5,14 +5,13 @@ GPU 加速的軟體體物理模擬，支援 Gmsh 四面體化
 
 bl_info = {
     "name": "Warp Physics Simulation (Gmsh)",
-    "author": "Your Name",
+    "author": "cool-David-2023",
     "version": (1, 3, 0),
     "blender": (4, 0, 0),
     "location": "View3D > Sidebar > Warp",
     "description": "GPU-accelerated soft body physics with Gmsh tetrahedral meshing",
     "category": "Physics",
-    "doc_url": "https://github.com/yourusername/warp-blender-addon",
-    "tracker_url": "https://github.com/yourusername/warp-blender-addon/issues",
+    "doc_url": "https://github.com/cool-David-2023/Warp-Physics-Simulation",
 }
 
 
@@ -213,4 +212,5 @@ if __name__ == "__main__":
     
     register()
     
+
     print("\n開發模式：插件已重新載入")
